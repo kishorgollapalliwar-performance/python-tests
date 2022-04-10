@@ -14,8 +14,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-
+#Make sure script has sufficient privileges
 # chmod 755 ./start-test.sh
+
+#Run the script
 #.bash start-test.sh MAX_ITERATION MAX_CLIENT http(s)://RANGER_ADMIN_HOST:PORT ADMIN_USERNAME ADMIN_PASSWORD 
 # bash start-test.sh 1000 5 "http://localhost:6081/" "admin" "rangerR0cks!"
 
